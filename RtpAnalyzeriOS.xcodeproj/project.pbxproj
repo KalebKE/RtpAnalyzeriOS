@@ -14,6 +14,7 @@
 		346C168D1B680F6E004578E1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 346C168C1B680F6E004578E1 /* Images.xcassets */; };
 		346C16901B680F6E004578E1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 346C168E1B680F6E004578E1 /* LaunchScreen.xib */; };
 		346C169C1B680F6E004578E1 /* RtpAnalyzeriOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 346C169B1B680F6E004578E1 /* RtpAnalyzeriOSTests.m */; };
+		346C16A91B6823A8004578E1 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 346C16A81B6823A8004578E1 /* GCDAsyncUdpSocket.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		346C16951B680F6E004578E1 /* RtpAnalyzeriOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RtpAnalyzeriOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		346C169A1B680F6E004578E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		346C169B1B680F6E004578E1 /* RtpAnalyzeriOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RtpAnalyzeriOSTests.m; sourceTree = "<group>"; };
+		346C16A71B6823A8004578E1 /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		346C16A81B6823A8004578E1 /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 		346C167E1B680F6E004578E1 /* RtpAnalyzeriOS */ = {
 			isa = PBXGroup;
 			children = (
+				346C16A71B6823A8004578E1 /* GCDAsyncUdpSocket.h */,
+				346C16A81B6823A8004578E1 /* GCDAsyncUdpSocket.m */,
 				346C16831B680F6E004578E1 /* AppDelegate.h */,
 				346C16841B680F6E004578E1 /* AppDelegate.m */,
 				346C16861B680F6E004578E1 /* ViewController.h */,
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				346C16A91B6823A8004578E1 /* GCDAsyncUdpSocket.m in Sources */,
 				346C16881B680F6E004578E1 /* ViewController.m in Sources */,
 				346C16851B680F6E004578E1 /* AppDelegate.m in Sources */,
 				346C16821B680F6E004578E1 /* main.m in Sources */,
